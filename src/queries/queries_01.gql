@@ -4,3 +4,9 @@ query GET_USERS {
         userName
     }
 }
+query GET_USER {
+    users {
+      id
+      username
+    }
+}
